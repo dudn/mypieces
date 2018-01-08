@@ -1,0 +1,9 @@
+使用htmlhint等语法检查工具，需要先安装nodejs,npm
+sudo apt install nodejs npm
+语法检测模块for html css JavaScript
+sudo npm install htmlhint -g
+sudo npm install stylelint -g
+sudo npm install jshint -g
+发现以下错误
+/usr/bin/env: ‘node’: No such file or directory
+sudo ln -s /usr/bin/nodejs /usr/bin/node

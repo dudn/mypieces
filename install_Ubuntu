@@ -4,7 +4,3 @@ sudo apt install fcitx-googlepinyin
 2.配置快捷键，快速全屏打开terminal，firefox常用软件
 gnome-terminal --maximize
 firefox
-3.安装fzf和ag
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-sudo apt install silversearcher-ag
