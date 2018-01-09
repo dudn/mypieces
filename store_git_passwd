@@ -1,0 +1,5 @@
+1.在home路径下
+vim .git-credentials
+https://{username}:{password}@github.com
+2.
+git config --global credential.helper store
