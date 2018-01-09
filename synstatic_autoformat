@@ -9,8 +9,9 @@ sudo npm install jshint -g
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 2.代码格式化工具
-npm install -g js-beautify
-
+npm install -g js-beautify       //also for css
+npm install -g html-beautify
+sudo apt install astyle           //for java
 3.ycm编译
 (1)cd ~/.vim/bundle/YouCompleteMe
 ./install.py --js-completer
